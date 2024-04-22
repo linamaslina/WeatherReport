@@ -9,15 +9,15 @@ static unsigned fileNumber = 0;
 
 Weather FindBestPort(Weather firstLocation, Weather secondLocation)
 {
-	if (firstLocation.GetLocation() == "Kourou" &&
-		firstLocation.GetLocation() == "Tanegashima" && 
-		firstLocation.GetLocation() == "CapeCanaveral"&& 
+	if (firstLocation.GetLocation() == "Kourou" ||
+		firstLocation.GetLocation() == "Tanegashima" || 
+		firstLocation.GetLocation() == "CapeCanaveral|| 
 		firstLocation.GetLocation() == "Kodiak")
 		return firstLocation;
 
-	if (secondLocation.GetLocation() == "Kourou" &&
-		secondLocation.GetLocation() == "Tanegashima" &&
-		secondLocation.GetLocation() == "CapeCanaveral" &&
+	if (secondLocation.GetLocation() == "Kourou" ||
+		secondLocation.GetLocation() == "Tanegashima" ||
+		secondLocation.GetLocation() == "CapeCanaveral" ||
 		secondLocation.GetLocation() == "Kodiak")
 		return secondLocation;
 }
