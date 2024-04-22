@@ -11,7 +11,7 @@ Weather FindBestPort(Weather firstLocation, Weather secondLocation)
 {
 	if (firstLocation.GetLocation() == "Kourou" ||
 		firstLocation.GetLocation() == "Tanegashima" || 
-		firstLocation.GetLocation() == "CapeCanaveral|| 
+		firstLocation.GetLocation() == "CapeCanaveral" || 
 		firstLocation.GetLocation() == "Kodiak")
 		return firstLocation;
 
